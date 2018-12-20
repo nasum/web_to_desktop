@@ -1,0 +1,16 @@
+{
+  "name": "web_to_desktop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "nasum",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node ./src/index.js"
+  },
+  "bin": {
+    "web_to_desktop": "./bin/web_to_desktop.js"
+  },
+  "dependencies": {
+    "carlo": "^0.9.43"
+  }
+}
