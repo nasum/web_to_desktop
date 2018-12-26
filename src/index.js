@@ -11,6 +11,7 @@ if (process.argv[2]) {
 carlo.launch().then(async app => {
   app.on('exit', () => process.exit());
   app.serveFolder(__dirname);
+  app.setIcon('icon.png')
   await app.exposeFunction('env', _ => process.env);
   await app.load(url);
 });
