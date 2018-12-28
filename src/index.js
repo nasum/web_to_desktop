@@ -21,12 +21,13 @@ const cli = meow(`
 let url = cli.input[0]
 
 if (url == null) {
-  url = path.join(__dirname, 'index.html')
+  url = path.join('index.html')
 }
 
 const channel = cli.flags.channel
 
 const config = {
+  title: 'Web to Desktop',
   channel: [channel]
 }
 
