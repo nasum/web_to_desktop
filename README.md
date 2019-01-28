@@ -23,6 +23,7 @@ Use in terminal.
 
 ```bash
 web_to_desktop target_web_url
+web_to_desktop -d target_web_url # daemonize
 ```
 
 open window and show website.
