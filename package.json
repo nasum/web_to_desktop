@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "carlo": "^0.9.43",
+    "daemonize-process": "^2.0.1",
     "meow": "^5.0.0"
   }
 }
